@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, sans-serif;
+}
+
+body {
+    background-color: #D8D2C2;
+}
+
+.navigation {
+    background-color: #D8D2C2;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+}
+
+.logo {
+    float: left;
+    padding-top: 17px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    color: #4A4947;
+}
+
+.menu {
+    margin-left: 800px;
+    padding-top: 25px;
+}
+
+
+.menu ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #4A4947;
+}
+
+.menu ul li a:hover {
+    color: #FAF7F0;
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+}
+
+.about {
+    /* background-color: #D8D2C2; */
+    height: 800px;
+    text-align: center;
+    color: #4A4947;
+}
+
+.about img {
+    /*/*height: 300px;
+    */border-radius: 200px;
+    border: 5px solid white;
+    margin-top: 200px;
+    width: 200px;
+}
+
+.about h1 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.about button {
+    margin-top: 60px;
+    padding: 10px;
+    width: 400px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    border: none;
+}
+
+.about button:hover {
+    background-color: #4A4947;
+    color: #FAF7F0;
+    border: 1px solid white;
+    scale: 110%;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+.portfolios {
+    text-align: center;
+    color: #4A4947;
+    align-content: center;
+    height: 800px;
+}
+
+.portfolios img {
+    width: 300px;
+    border-radius: 5px;
+}
+
+.img-1, .img-2, .img-3 {
+    width: 300px;
+    height: 320px;
+    background-color: #FAF7F0;
+    text-align: center;
+    padding: 30px 30px;
+    margin: 70px 20px 20px 75px;
+    float: left;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+.img-1:hover, .img-2:hover, .img-3:hover {
+    background-color: #4A4947;
+    color: white;
+    transform: scale(1.1);
+}
+
+.portofolios h3, p {
+    margin-top: 10px;
+    margin-bottom: 13px;
+    padding: 0px 20px;
+}
+
+.skills {
+    text-align: center;
+    color: #4A4947;
+    align-content: center;
+    height: 800px;
+}
+
+.skills img {
+    width: 200px;
+}
+
+.html, .css, .js {
+    width: 300px;
+    height: 320px;
+    background-color: #FAF7F0;
+    text-align: center;
+    padding: 30px 30px;
+    margin: 70px 20px 20px 75px;
+    float: left;
+    border-radius: 5px;
+}
+
+.html:hover, .css:hover, .js:hover {
+    background-color: #4A4947;
+    color: white;
+    scale: 110%;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+.skills h3, p {
+    margin-top: 10px;
+    margin-bottom: 13px;
+    padding: 0px 20px;
+}
+
+.contact {
+    margin: 0;
+    line-height: 1.5;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bungkus {
+    background: #FAF7F0;
+    width: 90%;
+    padding: 2rem;
+    border-radius: 5px;
+}
+
+.c {
+    background: #D8D2C2;
+    color: #4A4947;
+    letter-spacing: 0.1rem;
+    padding: 1rem;
+    cursor: default;
+    border-radius: 5px;
+}
+
+form, input, textarea, button {
+    font-family: inherit;
+    font-size: initial;
+}
+
+.form-group label {
+    display: block;
+    margin: 2rem 0 0.5 0;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 100%;
+    padding: 1rem 0.8rem;
+    border: 1px solid #4A4947;
+    outline: 0;
+    transition: border 0.15s;
+    -webkit-transition: border 0.15s;
+    -moz-transition: border 0.15s;
+    -ms-transition: border 0.15s;
+    -o-transition: border 0.15s;
+}
+
+.form-group input[type="text"]
+.form-group input[type="email"] {
+    height: 4.6rem;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.submit {
+    background: #D8D2C2;
+    color: #4A4947;
+    font-weight: bold;
+    margin-top: 1rem;
+    padding: 1rem 1.5rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.submit:hover {
+    scale: 110%;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+.form-group input[type="text"]:fokus,
+.form-group input[type="email"]:fokus,
+.form-group textarea:fokus {
+    border: 1px solid #4A4947;
+}
